@@ -1,3 +1,24 @@
+//topMenuOne
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
+// topMenu
+// function myFunction() {
+//     var x = document.getElementById("myTopnav");
+//     if (x.className === "topnav") {
+//         x.className += " responsive";
+//     } else {
+//         x.className = "topnav";
+//     }
+// }
+
+//Slider
 var btn_prev = document.querySelector('#gallery .buttons .prev');
 var btn_next = document.querySelector('#gallery .buttons .next');
 
@@ -8,7 +29,7 @@ btn_prev.onclick = function () {
     images[i].className = '';
     i--;
 
-    if(i < 0) {
+    if (i < 0) {
         i = images.length - 1;
     }
 
@@ -18,7 +39,7 @@ btn_next.onclick = function () {
     images[i].className = '';
     i++;
 
-    if(i >= images.length) {
+    if (i >= images.length) {
         i = 0;
     }
 
