@@ -1,0 +1,36 @@
+.creative {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: #353535;
+  background-color: #f3f5f8;
+  max-width: 100%;
+  height: 420px;
+
+  &__titel {
+    margin-bottom: 35px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+  }
+
+  &__text {
+    margin: 0 auto;
+    padding: 35px 25px;
+    max-width: 500px;
+    line-height: 25px;
+    letter-spacing: 2px;
+  }
+}
+
+.titleCenter {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #000;
+  letter-spacing: 1px;
+  background: url(../img/h1-bg.png) no-repeat center center;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
